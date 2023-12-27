@@ -1,0 +1,23 @@
+/* responsive.css */
+
+/* For devices with a maximum width of 768px */
+@media only screen and (max-width: 768px) {
+  /* Adjustments for smaller screens */
+  /* For example: */
+  .welcomeMain {
+    flex-direction: column;
+  }
+
+  /* You need to adjust specific styles for other sections as well */
+}
+
+/* For devices with a maximum width of 480px */
+@media only screen and (max-width: 480px) {
+  /* Further adjustments for even smaller screens */
+  /* Example: */
+  .welcomeLeft h1 {
+    font-size: 1.5em;
+  }
+
+  /* You'll need to specify additional styles here */
+}

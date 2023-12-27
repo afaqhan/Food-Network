@@ -1,0 +1,760 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./CSS/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <title>Food Network</title>
+  </head>
+
+  <body>
+    <!-- <div id="pre-loader"></div> -->
+    <div class="container">
+      <!-- Nav Section Start -->
+      <section class="navBar">
+        <div class="topNav">
+          <div class="logo">
+            <a href="#welcome"><span>Food</span> Network</a>
+          </div>
+
+          <div class="navItems">
+            <a href="#welcome">Home</a>
+            <a href="#about">About Me</a>
+            <a href="#chefs">Chefs</a>
+            <a href="#foods">Foods</a>
+            <a href="#table">Book Table</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Nav Section End -->
+
+      <!-- Welcome Section Start -->
+
+      <section class="welcome reveal" id="welcome">
+        <div class="welcomeMain">
+          <div class="welcomeLeft">
+            <h1>
+              Skip The Diet,<br />Just Eat Healthy <br />With
+              <span>Food</span> Network
+            </h1>
+
+            <p>
+              Imagine you don't need a diet because we provide <br />healthy and
+              delicious food for you!
+            </p>
+            <button><a href="./order.html">Order Food</a></button>
+          </div>
+
+          <div class="welcomeRight">
+            <img src="./img/Group 8425.png" alt="" />
+          </div>
+        </div>
+      </section>
+
+      <!-- Welcome Section End -->
+
+      <!-- About Section Start -->
+
+      <section class="about reveal" id="about">
+        <div class="aboutMain">
+          <div class="aboutLeft">
+            <img class="img-responsive" src="./img/Person Image.png" alt="" />
+          </div>
+
+          <div class="aboutRight">
+            <h1>About Me</h1>
+            <p>
+              Hey I am jaya.We've rounded up our 60 best, easy dinner recipes!
+              From grilled steak to braised chickpeas to allll the sheet pan
+              dinners—we've got you covered. You don't have to drop major dough
+              to make something delicious for dinner. We've got you covered for
+              dinner every week of the year with ...
+            </p>
+            <button><a href="./contact.html">Contact Me</a></button>
+          </div>
+        </div>
+      </section>
+
+      <!-- About Section End -->
+
+      <!-- Chefs Section Start -->
+      <section class="chefs reveal" id="chefs">
+        <div class="chefMain">
+          <div class="chefHead">
+            <h6>Our Chefs</h6>
+            <h2>We offer the best ingredients for you</h2>
+          </div>
+          <!--  -->
+          <div class="chefDetails">
+            <div class="chefFirst">
+              <img src="./img/chefs-01.jpg" alt="First Chef" />
+              <div class="chefInfo">
+                <h4>RandyWalker</h4>
+                <span>Pastry Chef</span>
+              </div>
+            </div>
+            <!--  -->
+
+            <div class="chefSecond">
+              <img src="./img/chefs-02.jpg" alt="Second Chef" />
+              <div class="chefInfo">
+                <h4>David Martin</h4>
+                <span>Cookie Chef</span>
+              </div>
+            </div>
+            <!--  -->
+
+            <div class="chefThird">
+              <img src="./img/chefs-03.jpg" alt="Third Chef" />
+              <div class="chefInfo">
+                <h4>Peter Parkon</h4>
+                <span>Pancake Chef</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Chefs Section Ends -->
+
+      <!-- Menu Section Start -->
+      <section class="foods reveal" id="foods">
+        <div class="foodHead">
+          <h6>Our Menu</h6>
+          <h2>Our Special Offers</h2>
+        </div>
+        <!--  -->
+        <div class="foodSelect">
+          <ul>
+            <li id="breakfast" class="foodTab" onclick="handleBreakfastClick()">
+              <a href="#breakfast"
+                ><img src="./img/tab-icon-01.png" alt="" />
+                <h4>Breakfast</h4>
+              </a>
+              <!-- <a href="#link"></a> -->
+            </li>
+
+            <li id="lunch" class="foodTab" onclick="handleLunchClick()">
+              <a href="#lunch"
+                ><img src="./img/tab-icon-02.png" alt="" />
+                <h4>Lunch</h4>
+              </a>
+              <!-- <a href="#link"></a> -->
+            </li>
+
+            <li id="dinner" class="foodTab" onclick="handleLunchClick()">
+              <a href="#dinner"
+                ><img src="./img/tab-icon-03.png" alt="" />
+                <h4>Dinner</h4>
+              </a>
+              <!-- <a href="#link"></a> -->
+            </li>
+          </ul>
+        </div>
+
+        <!-- Food Menu with details start -->
+        <div id="menu">
+          <!-- Tab-1  -->
+          <!--************ Breakfast items **********-->
+          <div id="breakfast" class="tab-content items">
+            <!-- firstItem -->
+            <div class="menu-item">
+              <div class="left">
+                <a href="./img/Menu/eggs omellet.jpg" class="menu-img">
+                  <img
+                    src="./img/Menu/eggs omellet.jpg"
+                    class="menu-img"
+                    alt=""
+                  />
+                </a>
+              </div>
+
+              <div class="right">
+                <h3>Eggs Omelette</h3>
+                <p class="ingredients">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Nostrum, temporibus!
+                </p>
+                <p>Food Code = #eggs-omelette</p>
+                <button><a href="./order.html">Order</a></button>
+              </div>
+              <div>
+                <p class="price">$14.0</p>
+              </div>
+            </div>
+            <!--  -->
+            <!-- 2nd item -->
+            <div class="menu-item">
+              <div class="left">
+                <a href="./img/Menu/fresh chicken salad.jpg" class="menu-img">
+                  <img
+                    src="./img/Menu/fresh chicken salad.jpg"
+                    class="menu-img"
+                    alt=""
+                  />
+                </a>
+              </div>
+
+              <div class="right">
+                <h3>Fresh Chicken Salad</h3>
+                <p class="ingredients">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Nostrum, temporibus!
+                </p>
+                <p>Food Code = #fresh-chicken-salad</p>
+                <button><a href="./order.html">Order</a></button>
+              </div>
+              <div>
+                <p class="price">$8.50</p>
+              </div>
+            </div>
+            <!--  -->
+            <!-- 3rd item -->
+            <div class="menu-item">
+              <div class="left">
+                <a href="./img/Menu/orange juice.jpg" class="menu-img">
+                  <img
+                    src="./img/Menu/orange juice.jpg"
+                    class="menu-img"
+                    alt=""
+                  />
+                </a>
+              </div>
+
+              <div class="right">
+                <h3>Orange Juice</h3>
+                <p class="ingredients">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Nostrum, temporibus!
+                </p>
+                <p>Food Code = #orange-juice</p>
+                <button><a href="./order.html">Order</a></button>
+              </div>
+              <div>
+                <p class="price">$8.00</p>
+              </div>
+            </div>
+            <!--  -->
+            <!-- 4th item -->
+            <div class="menu-item">
+              <div class="left">
+                <a href="./img/Menu/coffee.jpg" class="menu-img">
+                  <img src="./img/Menu/coffee.jpg" class="menu-img" alt="" />
+                </a>
+              </div>
+
+              <div class="right">
+                <h3>Hot Coffee</h3>
+                <p class="ingredients">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Nostrum, temporibus!
+                </p>
+                <p>Food Code = #hot-coffee</p>
+                <button><a href="./order.html">Order</a></button>
+              </div>
+              <div>
+                <p class="price">$5.95</p>
+              </div>
+            </div>
+            <!--  -->
+            <!-- 5th item -->
+            <div class="menu-item">
+              <div class="left">
+                <a href="./img/Menu/fruit salad.jpg" class="menu-img">
+                  <img
+                    src="./img/Menu/fruit salad.jpg"
+                    class="menu-img"
+                    alt=""
+                  />
+                </a>
+              </div>
+
+              <div class="right">
+                <h3>Fruit Salad</h3>
+                <p class="ingredients">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Nostrum, temporibus!
+                </p>
+                <p>Food Code = #fruit-salad</p>
+                <button><a href="./order.html">Order</a></button>
+              </div>
+              <div>
+                <p class="price">$9.90</p>
+              </div>
+            </div>
+            <!--  -->
+            <!-- 6th item -->
+            <div class="menu-item">
+              <div class="left">
+                <a href="./img/Menu/omelette and cheeze.jpg" class="menu-img">
+                  <img
+                    src="./img/Menu/omelette and cheeze.jpg"
+                    class="menu-img"
+                    alt=""
+                  />
+                </a>
+              </div>
+
+              <div class="right">
+                <h3>Omellete & Cheese</h3>
+                <p class="ingredients">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Nostrum, temporibus!
+                </p>
+                <p>Food Code = #omellete-cheese</p>
+                <button><a href="./order.html">Order</a></button>
+              </div>
+              <div>
+                <p class="price">$20.0</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--  -->
+        <!-- Tab-2 -->
+        <!-- ************ Lunch Items -->
+        <div id="lunch" class="tab-content items">
+          <!-- firstItem -->
+          <div class="menu-item">
+            <div class="left">
+              <a href="./img/Menu/fresh chicken salad.jpg" class="menu-img">
+                <img
+                  src="./img/Menu/fresh chicken salad.jpg"
+                  class="menu-img"
+                  alt=""
+                />
+              </a>
+            </div>
+
+            <div class="right">
+              <h3>Fresh Chicken Salad</h3>
+              <p class="ingredients">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Nostrum, temporibus!
+              </p>
+              <p>Food Code = #fresh-chicken-salad</p>
+              <button><a href="./order.html">Order</a></button>
+            </div>
+            <div>
+              <p class="price">$8.50</p>
+            </div>
+          </div>
+          <!--  -->
+          <!-- 2nd item -->
+          <div class="menu-item">
+            <div class="left">
+              <a href="./img/Menu/eggs omellet.jpg" class="menu-img">
+                <img
+                  src="./img/Menu/eggs omellet.jpg"
+                  class="menu-img"
+                  alt=""
+                />
+              </a>
+            </div>
+
+            <div class="right">
+              <h3>Eggs Omellete</h3>
+              <p class="ingredients">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Nostrum, temporibus!
+              </p>
+              <p>Food Code = #eggs-omellete</p>
+              <button><a href="./order.html">Order</a></button>
+            </div>
+            <div>
+              <p class="price">$14.0</p>
+            </div>
+          </div>
+          <!--  -->
+          <!-- 3rd item -->
+          <div class="menu-item">
+            <div class="left">
+              <a href="./img/Menu/coffee.jpg" class="menu-img">
+                <img src="./img/Menu/coffee.jpg" class="menu-img" alt="" />
+              </a>
+            </div>
+
+            <div class="right">
+              <h3>Hot Coffee</h3>
+              <p class="ingredients">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Nostrum, temporibus!
+              </p>
+              <p>Food Code = #hot-coffee</p>
+              <button><a href="./order.html">Order</a></button>
+            </div>
+            <div>
+              <p class="price">$5.95</p>
+            </div>
+          </div>
+          <!--  -->
+          <!-- 4th item -->
+          <div class="menu-item">
+            <div class="left">
+              <a href="./img/Menu/orange juice.jpg" class="menu-img">
+                <img
+                  src="./img/Menu/orange juice.jpg"
+                  class="menu-img"
+                  alt=""
+                />
+              </a>
+            </div>
+
+            <div class="right">
+              <h3>Orange Juice</h3>
+              <p class="ingredients">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Nostrum, temporibus!
+              </p>
+              <p>Food Code = #orange-juice</p>
+              <button><a href="./order.html">Order</a></button>
+            </div>
+            <div>
+              <p class="price">$8.00</p>
+            </div>
+          </div>
+          <!--  -->
+          <!-- 5th item -->
+          <div class="menu-item">
+            <div class="left">
+              <a href="./img/Menu/omelette and cheeze.jpg" class="menu-img">
+                <img
+                  src="./img/Menu/omelette and cheeze.jpg"
+                  class="menu-img"
+                  alt=""
+                />
+              </a>
+            </div>
+
+            <div class="right">
+              <h3>Omelette & Cheese</h3>
+              <p class="ingredients">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Nostrum, temporibus!
+              </p>
+              <p>Food Code = #omelette-cheese</p>
+              <button><a href="./order.html">Order</a></button>
+            </div>
+            <div>
+              <p class="price">$20.0</p>
+            </div>
+          </div>
+          <!--  -->
+          <!-- 6th item -->
+          <div class="menu-item">
+            <div class="left">
+              <a href="./img/Menu/fruit salad.jpg" class="menu-img">
+                <img src="./img/Menu/fruit salad.jpg" class="menu-img" alt="" />
+              </a>
+            </div>
+
+            <div class="right">
+              <h3>Fruit Salad</h3>
+              <p class="ingredients">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Nostrum, temporibus!
+              </p>
+              <p>Food Code = #fruit-salad</p>
+              <button><a href="./order.html">Order</a></button>
+            </div>
+            <div>
+              <p class="price">$9.90</p>
+            </div>
+          </div>
+        </div>
+        <!--  -->
+        <!-- Tab-3 -->
+        <!-- ******** Dinner ********* -->
+        <div id="dinner" class="tab-content items">
+          <!-- firstItem -->
+          <div class="menu-item">
+            <div class="left">
+              <a href="./img/Menu/eggs omellet.jpg" class="menu-img">
+                <img
+                  src="./img/Menu/eggs omellet.jpg"
+                  class="menu-img"
+                  alt=""
+                />
+              </a>
+            </div>
+
+            <div class="right">
+              <h3>Eggs Omelette</h3>
+              <p class="ingredients">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Nostrum, temporibus!
+              </p>
+              <p>Food Code = #eggs-omelette</p>
+              <button>Order</button>
+            </div>
+            <div>
+              <p class="price">$14.0</p>
+            </div>
+          </div>
+          <!--  -->
+          <!-- 2nd item -->
+          <div class="menu-item">
+            <div class="left">
+              <a href="./img/Menu/fresh chicken salad.jpg" class="menu-img">
+                <img
+                  src="./img/Menu/fresh chicken salad.jpg"
+                  class="menu-img"
+                  alt=""
+                />
+              </a>
+            </div>
+
+            <div class="right">
+              <h3>Fresh Chicken Salad</h3>
+              <p class="ingredients">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Nostrum, temporibus!
+              </p>
+              <p>Food Code = #fresh-chicken-salad</p>
+              <button>Order</button>
+            </div>
+            <div>
+              <p class="price">$8.50</p>
+            </div>
+          </div>
+          <!--  -->
+          <!-- 3rd item -->
+          <div class="menu-item">
+            <div class="left">
+              <a href="./img/Menu/orange juice.jpg" class="menu-img">
+                <img
+                  src="./img/Menu/orange juice.jpg"
+                  class="menu-img"
+                  alt=""
+                />
+              </a>
+            </div>
+
+            <div class="right">
+              <h3>Orange Juice</h3>
+              <p class="ingredients">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Nostrum, temporibus!
+              </p>
+              <p>Food Code = #orange-juice</p>
+              <button>Order</button>
+            </div>
+            <div>
+              <p class="price">$8.00</p>
+            </div>
+          </div>
+          <!--  -->
+          <!-- 4th item -->
+          <div class="menu-item">
+            <div class="left">
+              <a href="./img/Menu/coffee.jpg" class="menu-img">
+                <img src="./img/Menu/coffee.jpg" class="menu-img" alt="" />
+              </a>
+            </div>
+
+            <div class="right">
+              <h3>Hot Coffee</h3>
+              <p class="ingredients">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Nostrum, temporibus!
+              </p>
+              <p>Food Code = #hot-coffee</p>
+              <button>Order</button>
+            </div>
+            <div>
+              <p class="price">$5.95</p>
+            </div>
+          </div>
+          <!--  -->
+          <!-- 5th item -->
+          <div class="menu-item">
+            <div class="left">
+              <a href="./img/Menu/fruit salad.jpg" class="menu-img">
+                <img src="./img/Menu/fruit salad.jpg" class="menu-img" alt="" />
+              </a>
+            </div>
+
+            <div class="right">
+              <h3>Fruit Salad</h3>
+              <p class="ingredients">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Nostrum, temporibus!
+              </p>
+              <p>Food Code = #fruit-salad</p>
+              <button>Order</button>
+            </div>
+            <div>
+              <p class="price">$9.90</p>
+            </div>
+          </div>
+          <!--  -->
+          <!-- 6th item -->
+          <div class="menu-item">
+            <div class="left">
+              <a href="./img/Menu/omelette and cheeze.jpg" class="menu-img">
+                <img
+                  src="./img/Menu/omelette and cheeze.jpg"
+                  class="menu-img"
+                  alt=""
+                />
+              </a>
+            </div>
+
+            <div class="right">
+              <h3>Omellete & Cheese</h3>
+              <p class="ingredients">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Nostrum, temporibus!
+              </p>
+              <p>Food Code = #omellete-cheese</p>
+              <button><a href="">Order</a></button>
+            </div>
+            <div>
+              <p class="price">$20.0</p>
+            </div>
+          </div>
+        </div>
+        <!-- Food Menu with details end -->
+      </section>
+      <!-- Menu Section End -->
+      <!--  -->
+      <!--  -->
+      <!-- *********** Table Reservation  Start-->
+      <div id="table" class="table-reservation reveal">
+        <div class="left-content">
+          <h3 class="text">--- Contact Us</h3>
+          <h1 class="text">
+            Here You Can Make A Reservation Or Just walkin to our cafe
+          </h1>
+          <h4 class="text">
+            Donec pretium est orci, non vulputate arcu hendrerit a. Fusce a
+            eleifend riqsie, namei sollicitudin urna diam, sed commodo purus
+            porta ut.
+          </h4>
+          <!-- card start -->
+          <div class="card">
+            <!-- phone card start -->
+            <div class="phone-card">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+                class="icon phone-icon"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M1.5 4.5a3 3 0 013-3h1.372c.86 0 1.61.586 1.819 1.42l1.105 4.423a1.875 1.875 0 01-.694 1.955l-1.293.97c-.135.101-.164.249-.126.352a11.285 11.285 0 006.697 6.697c.103.038.25.009.352-.126l.97-1.293a1.875 1.875 0 011.955-.694l4.423 1.105c.834.209 1.42.959 1.42 1.82V19.5a3 3 0 01-3 3h-2.25C8.552 22.5 1.5 15.448 1.5 6.75V4.5z"
+                  clip-rule="evenodd"
+                />
+              </svg>
+              <h3>Phone Numbers</h3>
+              <h5>123-456-789</h5>
+              <h5>987-654-321</h5>
+            </div>
+            <!-- phone card end -->
+
+            <!-- Email card start  -->
+            <div class="email-card">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+                class="icon email-icon"
+              >
+                <path
+                  d="M1.5 8.67v8.58a3 3 0 003 3h15a3 3 0 003-3V8.67l-8.928 5.493a3 3 0 01-3.144 0L1.5 8.67z"
+                />
+                <path
+                  d="M22.5 6.908V6.75a3 3 0 00-3-3h-15a3 3 0 00-3 3v.158l9.714 5.978a1.5 1.5 0 001.572 0L22.5 6.908z"
+                />
+              </svg>
+              <h3>Emails</h3>
+              <h5>abcdef@gmail.com</h5>
+              <h5>ghijkl@gmail.com</h5>
+            </div>
+            <!-- Email card end -->
+          </div>
+          <!-- card ends -->
+        </div>
+        <div class="right">
+          <div class="form">
+            <h2 class="table-head">Table Reservation Form</h2>
+            <form>
+              <input
+                class="field"
+                type="text"
+                placeholder="Your Name"
+                required
+              />
+              <input
+                class="field"
+                type="email"
+                placeholder="your Email"
+                required
+              />
+              <!-- <br /> -->
+              <input class="field" type="number" placeholder="Phone Number" />
+              <input
+                class="field"
+                type="number"
+                placeholder="Number Of Guests"
+              />
+              <!-- <br /> -->
+              <input class="field" type="time" placeholder="Time" />
+              <!-- <input class="field" type="time" placeholder="Time" /> -->
+              <select class="field">
+                <option>Time</option>
+                <option>Breakfast</option>
+                <option>Lunch</option>
+                <option>Dinner</option>
+              </select>
+            </form>
+            <textarea
+              class="field"
+              cols="30"
+              rows="6"
+              placeholder="Message"
+            ></textarea
+            ><br />
+            <button class="btn" type="button">Make A Reservation</button>
+          </div>
+        </div>
+      </div>
+      <!-- ***********  Table Reservation End -->
+
+      <!-- ************ Footer starts -->
+      <footer class="footer">
+        <div class="afaq-card">
+          <img src="./img/chefs-01.jpg" alt="" />
+          <h4>Afaq Ahmad</h4>
+          <h5>232439</h5>
+          <p>Student of BSCS</p>
+        </div>
+        <div class="hameed-card">
+          <img src="./img/chefs-02.jpg" alt="" />
+          <h4>Hammed-UR-Rehman</h4>
+          <h5>232435</h5>
+          <p>Student of BSCS</p>
+        </div>
+        <div class="social-icons">
+          <div class="fb-icon">
+            <img src="./img/fb-icon.png" alt="" />
+          </div>
+          <div class="whatsp-icon">
+            <img src="./img/whatsp-icon.png" alt="" />
+          </div>
+          <div class="inst-icon">
+            <img src="./img/inst-icon.jpg" alt="" />
+          </div>
+        </div>
+      </footer>
+      <!-- Footer ends -->
+      <!-- Container end -->
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>

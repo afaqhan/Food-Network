@@ -1,0 +1,507 @@
+/* Universal Start */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.secondary {
+  color: orange;
+}
+
+img-responsive {
+  width: 100%;
+}
+h2 {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: gray;
+}
+
+button {
+  color: #fff;
+  padding: 2.5%;
+  background-image: linear-gradient(to right, orange, rgb(243, 70, 70));
+  border-radius: 25px;
+  cursor: pointer;
+  border: transparent;
+}
+
+button:hover {
+  background-image: linear-gradient(to left, orange, rgb(243, 70, 70));
+}
+
+button a {
+  text-decoration: none;
+  color: #fff;
+}
+
+/* Universal End*/
+/* <!-- -- 
+----
+------
+--------
+----------- --> */
+/* <!-- Nav Section Start --> */
+
+.navBar {
+  /* position: sticky; */
+  top: 0;
+  background-color: rgba(221, 205, 150, 0.5);
+  padding-bottom: 1%;
+}
+
+.topNav {
+  display: flex;
+  justify-content: space-between;
+  padding: 2%;
+  height: 10vh;
+}
+
+.navBar a {
+  text-decoration: none;
+  font-weight: 800;
+}
+
+.topNav .logo a {
+  color: #111;
+  font-weight: 900;
+  letter-spacing: 0.1em;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.topNav .logo a span {
+  color: orange;
+}
+
+.topNav .navItems {
+  margin-right: 1%;
+}
+
+.topNav .navItems a {
+  margin-right: 1em;
+  color: #111;
+}
+
+.topNav .navItems a:hover {
+  color: orange;
+}
+
+/* <!-- Nav Section End --> */
+/* <!-- -- 
+----
+------
+--------
+----------- -- !> */
+/* Welcome Section Start */
+
+.welcomeMain {
+  display: flex;
+  /* border: 2px solid; */
+  margin: 0 5%;
+}
+
+.welcomeMain .welcomeLeft {
+  padding-top: 10%;
+  width: 50%;
+}
+
+.welcomeMain .welcomeRight {
+  width: 50%;
+}
+
+.welcomeMain .welcomeRight img {
+  max-width: 100%;
+  max-height: 80vh;
+}
+
+.welcomeLeft h1 {
+  font-size: 2em;
+  padding-bottom: 3%;
+  letter-spacing: 2px;
+  font-weight: 800;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.welcomeLeft h1 span {
+  color: orange;
+}
+
+.welcomeLeft p {
+  color: gray;
+  padding-bottom: 7%;
+}
+
+/* Welcome Section End */
+/* <!-- -- 
+----
+------
+--------
+----------- -- !> */
+/* About Section Start */
+
+section.about {
+  background-image: url("../img/7.png");
+  background-repeat: no-repeat;
+  /* background-position: center; */
+  /* width: 100vw; */
+  /* border: 2px solid; */
+  background-size: cover;
+}
+
+.aboutMain {
+  display: flex;
+  /* border: 2px solid; */
+  margin: 0 5%;
+  margin-top: 10%;
+}
+
+.aboutMain .aboutLeft {
+  max-width: 50%;
+  margin-top: 10%;
+}
+
+.aboutMain .aboutRight {
+  max-width: 50%;
+  margin-top: 10%;
+}
+
+.aboutMain .aboutRight h1 {
+  padding-bottom: 4%;
+}
+.aboutMain .aboutRight p {
+  padding-bottom: 10%;
+}
+
+.aboutMain .aboutLeft img {
+  max-width: 100%;
+  max-height: 80vh;
+  /* width: 100px; */
+}
+/* About Section End */
+
+/* Chef Section Start*/
+.chefMain .chefHead {
+  text-align: center;
+  margin-top: 1.875%;
+  padding-top: 0.625%;
+  /* background-color: aqua; */
+}
+.chefHead h6 {
+  color: orange;
+}
+
+.chefHead h2 {
+  max-width: 16.8%;
+  margin: auto;
+}
+
+.chefDetails {
+  margin-top: 10%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.chefDetails img {
+  border-radius: 1rem;
+}
+
+.chefInfo {
+  margin-top: 1rem;
+  text-align: center;
+  /* color: #fff; */
+}
+/* Chef Section End */
+
+/* <!-- -- 
+----
+------
+--------
+----------- -- !> */
+
+/* Food Setcion Start */
+
+.foods {
+  margin-top: 5%;
+  max-width: auto;
+  max-height: 100vh;
+}
+
+.foodHead {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.foodHead h6 {
+  color: orange;
+  margin-bottom: 1rem;
+}
+
+.foodSelect ul {
+  text-decoration: none;
+  display: flex;
+  /* justify-content: space-around; */
+  /* margin: auto; */
+  /* width: 200px; */
+  text-align: center;
+  justify-content: center;
+  padding: 1rem 0.5rem;
+  margin-bottom: 1.5rem;
+  /* flex-direction: row; */
+}
+li {
+  list-style: none;
+}
+.foodSelect li a {
+  text-decoration: none;
+  color: #111;
+}
+
+.foodTab:hover {
+  /* border-bottom: orange solid; */
+  text-decoration: underline solid orange 3px;
+  transition: 0.3s;
+  margin: 0;
+  padding: 0;
+}
+
+.menu-item {
+  display: flex;
+  /* border: #111 solid; */
+  max-width: 37rem;
+  max-height: 10rem;
+}
+
+.menu-item p {
+  /* background-color: orange; */
+  margin-top: 0.5rem;
+}
+.menu-item button {
+  margin-top: 0.5rem;
+  width: 6rem;
+}
+.menu-item .left .menu-img {
+  width: 11rem;
+  height: 10rem;
+  margin-right: 1rem;
+  border-radius: 1rem;
+  /* border: #111 solid; */
+}
+
+/* .menu-item .right {
+  margin-top: 10px;
+} */
+
+.menu-item .price {
+  background-color: orangered;
+  color: #fff;
+  /* width: 85px; */
+  /* height: 94px; */
+  border-radius: 1rem;
+  margin-top: 2.8rem;
+  text-align: center;
+  padding: 1.55rem 0.625rem;
+}
+.items {
+  display: grid;
+  grid-template-columns: auto auto;
+
+  row-gap: 0.625rem;
+  /* column-gap: 0; */
+  justify-content: space-around;
+}
+/* Food Setcion End */
+
+/* Table Reservation Start */
+.table-reservation {
+  height: 100vh;
+  width: auto;
+  font-family: sans-serif;
+  /* background-color: orange; */
+  gap: 3.125rem;
+  display: flex;
+}
+
+.left-content {
+  margin-top: 10rem;
+  padding-top: 1.5rem;
+  padding-left: 10rem;
+  /* margin-left: 100px; */
+  /* background-color: aqua; */
+  justify-content: center;
+  /* width: 650px; */
+  /* height: 650px; */
+  /* border: 2px solid black; */
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+  /* background-color: orange; */
+  margin-top: 6rem;
+  cursor: pointer;
+}
+
+.phone-card {
+  background-color: rgba(221, 205, 150, 0.5);
+  padding: 1rem;
+  border-radius: 1rem;
+}
+
+.email-card {
+  background-color: rgba(221, 205, 150, 0.5);
+  /* padding: 10px; */
+  /* padding-top: 0;
+  padding-left: 1.4rem;
+  padding-right: 1.5rem; */
+  border-radius: 1rem;
+  padding: 0 1.5rem;
+}
+
+.text {
+  margin-top: 1.3rem;
+  /* background-color: orange; */
+}
+
+.icon {
+  max-width: 2.5rem;
+  height: auto;
+  justify-content: center;
+  margin-left: 3.1rem;
+  /* margin-top: -390px; */
+  align-items: center;
+  display: inline-block;
+  background-color: rgb(211, 177, 188);
+  padding: 0.625rem;
+  border-radius: 50%;
+  margin-top: -4rem;
+}
+
+.email-icon {
+  margin-top: -1rem;
+  /* margin: 0;
+  margin-bottom: 10px;
+  background-color: aqua; */
+}
+/*  */
+
+.table-head {
+  margin-top: 8rem;
+  margin-bottom: 1.4rem;
+  /* margin-left: 20px; */
+}
+
+.form {
+  /* margin-left: 90px; */
+  margin-right: 0;
+  padding-left: 13rem;
+  /* background-color: orange; */
+  /* width: 700px; */
+}
+
+.field {
+  width: 55%;
+  /* border: 2px solid rgba(0, 0, 0, 0); */
+  outline: none;
+  /* background-color: rgba(230, 230, 230, 0.6); */
+  padding: 0.5rem 2rem;
+  font-size: 1.1rem;
+  margin-bottom: 1.5rem;
+  transition: 0.3s;
+  margin-right: 0;
+}
+
+.field:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+option {
+  color: grey;
+}
+
+textarea {
+  min-height: 10rem;
+  max-width: 20rem;
+  resize: vertical;
+}
+
+.btn {
+  /* margin-top: 0; */
+  margin-left: 4rem;
+  padding: 0.8rem 1.2rem;
+  /* padding-left: 20px;
+  padding-right: 20px; */
+  /* justify-content: center; */
+}
+/* Table Reservation End */
+/* footer Start */
+.footer {
+  width: 100%;
+  height: 160px;
+  background-color: #111;
+  margin-top: 15%;
+  color: white;
+  display: flex;
+  gap: 30px;
+}
+.footer img {
+  border-radius: 50%;
+  width: 60px;
+  height: auto;
+  margin-top: 20px;
+  margin-left: 1rem;
+  margin-bottom: 10px;
+}
+
+.afaq-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 50px;
+}
+.hameed-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.social-icons {
+  display: flex;
+  align-items: center;
+  margin-left: 700px;
+}
+
+.social-icons img:hover {
+  transform: scale(1.4);
+}
+
+.social-icons img {
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+}
+/* footer end */
+
+/* scrolling animation */
+.reveal {
+  position: relative;
+  transform: translatey(150px);
+  opacity: 0;
+  transition: all 3s ease;
+}
+
+.reveal.active {
+  transform: translatey(0px);
+  opacity: 1;
+}
